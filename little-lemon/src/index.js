@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+<>
+<meta name="description" content="Welcome to Little Lemon, the cities best restaurant" />
+  <meta name="og:title" content="Little Lemon" />
+  <meta name="og:image" content="logo.png"/>
+</>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

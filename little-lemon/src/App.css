@@ -1,3 +1,52 @@
 .App {
   text-align: center;
 }
+
+#logo{
+  width: 270px;
+  height: auto;
+  float: inline-start;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: inline-end;
+}
+
+li {
+  display:inline-block;
+}
+
+li a {
+  font-weight: bold;
+  font-size: larger;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 23px 30px;
+  text-decoration: none;
+}
+
+.footer {
+  color: white;
+  background-color: #495E57;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 40px;
+}
+
+.footer > section > img {
+  height: 180px;
+}
+
+.footer section a {
+  color: white;
+}
+
