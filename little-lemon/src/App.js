@@ -1,18 +1,17 @@
 import './App.css'
-import Header from './Components/Header'
-import Navigation from './Components/Navigation'
-import Footer from './Components/Footerr'
+import React from 'react'
+import Homepage from './Components/Homepage';
+
+
+
 
 function App() {
+
   return (
     <div className="App">
-      <>
-        <Header />
-        <Navigation />
-        <Footer/>
-      </>
+      <> <Homepage /> </>
     </div>
   );
-}
+};
 
 export default App;
