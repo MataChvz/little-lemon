@@ -1,16 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
         <nav >
             <ul className="Nav">
-                <img src="logo.jpg" alt="logo" />
-                <li><a href="http://">Home</a></li>
-                <li><a href="http://">About</a></li>
-                <li><a href="http://">Menu</a></li>
-                <li><a href="http://">Reservation</a></li>
-                <li><a href="http://">Order Online</a></li>
-                <li><a href="http://">Login</a></li>
+               <Link to="/Home"> <img src="logo.jpg" alt="logo"/> </Link>
+               <Link to="/Home">  <li>Home</li> </Link>
+                <li>Menu</li>
+                <Link to="/Booking"> <li>Reservation</li> </Link>
+                <li>Order Online</li>
+                <li>Login</li>
             </ul>
         </nav>
     )

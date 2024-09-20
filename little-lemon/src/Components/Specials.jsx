@@ -6,14 +6,11 @@ const Specials = () => {
     return (
 
         
-<div className='specials'> 
-
-            
+<div className='specials'>   
             <div className='SpecialsTop'>
                     <h1>This Weeks Specials!</h1>
             </div>
                
-           
         <section>
        <div className='card-container'>    
         <Card Meal="Greek Salad" img ='greekSalad.jpg'
