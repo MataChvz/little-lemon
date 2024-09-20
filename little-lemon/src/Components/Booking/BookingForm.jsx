@@ -70,7 +70,7 @@ const Form = () => {
                     </div>
                     
                     <Link to="/Confirmed" className ="TableBooked">
-                    <button type="submit" disabled={!formisValid()}>
+                    <button aria-label="On Click" type="submit" disabled={!formisValid()}>
                         Book Table
                 </button>
                     </Link>
